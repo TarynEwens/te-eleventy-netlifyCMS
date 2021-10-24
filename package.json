@@ -1,0 +1,26 @@
+{
+  "name": "te-eleventy-netlify-cms",
+  "version": "1.0.0",
+  "description": "The 2021 rebuild of my personal site, this time experimenting with Eleventy and Netlify CMS.",
+  "main": "eleventy.js",
+  "dependencies": {
+    "luxon": "^2.0.2"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TarynEwens/te-eleventy-netlifyCMS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TarynEwens/te-eleventy-netlifyCMS/issues"
+  },
+  "homepage": "https://github.com/TarynEwens/te-eleventy-netlifyCMS#readme"
+}
