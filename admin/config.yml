@@ -20,4 +20,30 @@ collections:
       - { label: "Date", name: "date", widget: "date", default: "" }
       - { label: "Post Body", name: "body", widget: "markdown" }
       - { label: "Featured Image", name: "featuredImage", widget: "image" }
+  - name: pages
+    label: Pages
+    label_singular: Page
+    folder: src/pages
+    create: true
+    summary: "{{fields.title}}"
+    sortable_fields:
+      - permalink
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
+      - label: Permalink
+        name: permalink
+        widget: string
+        required: false
+      - label: Background colour
+        name: background_colour
+        widget: select
+        options:
+          - label: Gray
+            value: bg-gray-800
+        required: false
 public_folder: "/images/uploads"

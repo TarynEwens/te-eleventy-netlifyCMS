@@ -5,10 +5,25 @@
   </head>
 
   <body>
+    {% include "navigation.njk" %}
     <h1>
-      Eleventy + Netlify CMS from scratch
+      Taryn Ewens
     </h1>
+    <p>ex-confectioner turned front-end web developer</p>
     {{ content | safe }}
+    <footer>
+    <div>
+    <p>Designed and built by Taryn Ewens <br/> An experiment with 11ty and Netlify CMS</p>
+    </div>
+    <div>
+    <a href="hello@tarynewens.com">hello@tarynewens.com</a>
+    <ul>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">LinkedIn</a></li>
+    </ul>
+    </div>
+    </footer>
     <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
