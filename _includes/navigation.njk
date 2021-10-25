@@ -1,5 +1,7 @@
+{% set pages = collections.pages %}
 <ul>
-  <li><a href="/about">About</a></li>
-  <li><a href="/community">Community</a></li>
+  {% for page in pages %}
+    <li><a href="{{page.data.permalink}}">{{page.data.title}}</a></li>
+  {% endfor %}
   <li><a href="/">Blog</a></li>
 </ul>
