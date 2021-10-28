@@ -1,5 +1,5 @@
 ---
 title: Test Page
-permalink: /about/
+permalink: /test/
 ---
 Test
