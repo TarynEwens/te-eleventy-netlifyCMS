@@ -45,11 +45,4 @@ collections:
         name: permalink
         widget: string
         required: false
-      - label: Background colour
-        name: background_colour
-        widget: select
-        options:
-          - label: Gray
-            value: bg-gray-800
-        required: false
 public_folder: "/images/uploads"
