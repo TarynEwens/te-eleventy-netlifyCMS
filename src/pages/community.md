@@ -1,7 +1,6 @@
 ---
 layout: layouts/page.njk
 title: Community
-description: Taryn Ewens community involvement
 permalink: /community/
 ---
 

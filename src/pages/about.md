@@ -1,7 +1,6 @@
 ---
 layout: layouts/page.njk
 title: About
-description: About Taryn Ewens
 permalink: /about/
 ---
 
