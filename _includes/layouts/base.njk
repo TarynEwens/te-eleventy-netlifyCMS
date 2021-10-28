@@ -5,19 +5,23 @@
   </head>
 
   <body>
+    <header>
     {% include "navigation.njk" %}
     <h1>
       Taryn Ewens
     </h1>
     <p>ex-confectioner turned front-end web developer</p>
-    {{ content | safe }}
+    </header>
+    <main>
+      {{ content | safe }}
+    </main>
     <footer>
     <div>
     <p>Designed and built by Taryn Ewens <br/> An experiment with 11ty and Netlify CMS</p>
     </div>
     <div>
     <a href="hello@tarynewens.com">hello@tarynewens.com</a>
-    <ul>
+    <ul class="socials">
       <li><a href="#">Twitter</a></li>
       <li><a href="#">Instagram</a></li>
       <li><a href="#">LinkedIn</a></li>

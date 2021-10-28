@@ -40,6 +40,5 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Page Body", name: "body", widget: "markdown" }
-
       - { label: Permalink, name: permalink, widget: string, required: false }
 public_folder: "/images/uploads"
