@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Test Page
-permalink: test
+permalink: /test/
 ---
 
 Test
