@@ -1,5 +1,5 @@
 <ul class="postList">
-  {% for post in postslist %}
+  {% for post in postslist.slice(0, 7) %}
     <li class={{ "spanDouble" if post.data.featuredImage else "" }}>
       {% if post.data.featuredImage %}
       <a href="{{ post.url | url }}"><img src="{{post.data.featuredImage | url}}" alt="{{post.data.description}}" /></a>
@@ -9,6 +9,7 @@
       </h4>
       <p>{{ post.data.description }}</p>
       <p><small><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></small></p>
+
     </li>
   {% endfor %}
 </ul>

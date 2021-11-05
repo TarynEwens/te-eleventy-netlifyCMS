@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<section className={utilStyles.headingMd}>
+<section>
         <h2>About me</h2>
         <ul className={utilStyles.listStandard}>
           <li className={utilStyles.listItemStandard}>

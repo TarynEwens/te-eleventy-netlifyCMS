@@ -4,7 +4,7 @@ title: Community
 permalink: /community/
 ---
 
- <section className={utilStyles.headingMd}>
+ <section className="mainArea">
         <h2>Community involvement</h2>
         <section>
           <h3>STEM x Play</h3>

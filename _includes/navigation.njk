@@ -1,9 +1,10 @@
 {% set pages = collections.pages %}
 <nav>
   <ul class="navigation">
+    <li><a href="/">Home</a></li>
     {% for page in pages %}
+      <span>-</span>
       <li><a href="{{page.data.permalink}}">{{page.data.title}}</a></li>
     {% endfor %}
-    <li><a href="/">Blog</a></li>
   </ul>
 </nav>

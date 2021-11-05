@@ -1,0 +1,213 @@
+:root {
+  --textStandard: #575656;
+  --pinkDark: #f582ae;
+  --pinkLight: #ffe9ed;
+  --blueDark: #001858;
+  --blueLight: #8bd3dd;
+  line-height: 1.6;
+  font-size: 18px;
+}
+body {
+  background-color: #fefafb;
+  color: var(--textStandard);
+}
+
+.bodyWrapper {
+  margin: 3rem auto 6rem;
+  max-width: 66rem;
+  padding: 0 1rem;
+}
+
+/* FONT / LINKS */
+
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  margin: 1rem 0 0;
+}
+
+a {
+  color: var(--textStandard);
+  text-decoration: none;
+  border-bottom: 2px solid var(--pinkDark);
+  transition: all 0.5s ease;
+}
+
+a:hover {
+  border-bottom: 2px solid var(--blueLight);
+}
+
+nav a:hover {
+  border-bottom: 2px solid var(--blueLight);
+}
+
+main {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+/* NAVIGATION */
+
+nav ul {
+  display: flex;
+  font-family: "Merriweather", serif;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+nav li {
+  margin: 0 1.5rem;
+}
+
+nav a {
+  font-size: 1.2rem;
+  border-bottom: 0;
+  transition: none;
+}
+
+/* HEADER */
+
+header {
+  text-align: center;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--textStandard);
+}
+
+header p {
+  font-family: "Merriweather", serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}
+
+.headerWrapper {
+  display: flex;
+}
+
+.headerImageWrapper {
+  width: 36%;
+}
+
+.headerImage {
+  padding-right: 1rem;
+  padding-top: 1.2rem;
+  width: 5rem;
+}
+
+.headerTitle {
+  margin-left: -36%;
+  width: 66rem;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerImageLeft {
+  width: 4rem;
+  margin-right: 1rem;
+}
+
+.footerImageRight {
+  width: 9rem;
+}
+
+.footerLeft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+}
+
+.footerRight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
+
+.footerRight div {
+  text-align: right;
+}
+
+.footerRight ul {
+  display: flex;
+  font-family: "Merriweather", serif;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.footerRight li {
+  margin-left: 1.5rem;
+}
+
+footer p {
+  margin: 0.25rem 0;
+}
+
+/* BLOG */
+
+.blogIntro,
+.mainArea {
+  font-size: 1.2rem;
+  margin: 4rem auto 5rem;
+  max-width: 36rem;
+}
+
+.blogIntro {
+  text-align: center;
+}
+
+.blogList a {
+  border: 0;
+}
+
+.postList {
+  list-style: none;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  grid-template-rows: repeat(auto-fill, 1fr);
+  padding-left: 0;
+}
+
+.postList li {
+  background-color: #fff;
+  height: min-content;
+  margin: 1rem;
+  min-width: 18rem;
+}
+
+.postList li.spanDouble {
+  grid-row: span 2;
+}
+
+.postList img {
+  width: 100%;
+  height: 46%;
+  object-fit: cover;
+}
+
+.postList p,
+.postList h4 {
+  padding: 0 2rem 1rem;
+}
+
+.postList h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.postList small {
+  border-top: 1px solid #c2c2c2;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+}

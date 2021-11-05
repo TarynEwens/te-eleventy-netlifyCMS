@@ -1,33 +1,50 @@
 <html>
   <head>
     <title>Taryn Ewens: Front-End Web Developer</title>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  </head>
-
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,300&display=swap" rel="stylesheet">  </head>
   <body>
-    <header>
-    {% include "navigation.njk" %}
-    <h1>
-      Taryn Ewens
-    </h1>
-    <p>ex-confectioner turned front-end web developer</p>
-    </header>
-    <main>
-      {{ content | safe }}
-    </main>
-    <footer>
-    <div>
-    <p>Designed and built by Taryn Ewens <br/> An experiment with 11ty and Netlify CMS</p>
+    <div class="bodyWrapper">
+      <header>
+        {% include "navigation.njk" %}
+        <div class="headerWrapper">
+          <div class="headerImageWrapper">
+            <img src="/images/plant2.png" alt="Pot plant created with CSS" class="headerImage"/>
+          </div>
+          <div class="headerTitle">
+            <h1>
+              Taryn Ewens
+            </h1>
+            <p>ex-confectioner turned front-end web developer</p>
+          </div>
+        </div>
+      </header>
+      <main>
+        {{ content | safe }}
+      </main>
+      <footer>
+      <div class="footerLeft">
+        <img src="/images/plant1.png" alt="Pot plant created with CSS" class="footerImageLeft"/>
+        <div>
+          <p>Designed and built by me!</p>
+          <p>An experiment with 11ty and Netlify CMS</p>
+        </div>
+      </div>
+      <div class="footerRight">
+      <div>
+      <p><a href="mailto:hello@tarynewens.com">hello@tarynewens.com</a></p>
+      <ul class="socials">
+        <li><a href="https://twitter.com/TarynEwens">Twitter</a></li>
+        <li><a href="https://www.instagram.com/tarynewens/">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/in/tarynewens/">LinkedIn</a></li>
+      </ul>
+      </div>
+        <img src="/images/plant2.png" alt="Pot plant created with CSS" class="footerImageRight"/>
+      </div>
+      </footer>
     </div>
-    <div>
-    <a href="hello@tarynewens.com">hello@tarynewens.com</a>
-    <ul class="socials">
-      <li><a href="#">Twitter</a></li>
-      <li><a href="#">Instagram</a></li>
-      <li><a href="#">LinkedIn</a></li>
-    </ul>
-    </div>
-    </footer>
     <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
