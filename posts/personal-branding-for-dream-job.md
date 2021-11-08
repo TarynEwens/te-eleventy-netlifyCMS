@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Personal branding to help you get your dream job
-description: If you've read anything of mine in the past you likely already know this, I used to be a pastry chef! I worked at a confectionery patisserie, and then later a chocolate company. But now I work at an enterprise software company - and it's my dream company! So how did I go from being a pastry chef to getting my dream job?
+description: If you've read anything of mine in the past you likely already know this, I used to be a pastry chef! So how did I go from being a pastry chef to getting my dream job?
 date: 2021-04-09T14:00:00.000Z
 ---
 

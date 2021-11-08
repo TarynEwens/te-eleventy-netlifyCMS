@@ -1,5 +1,5 @@
-<ul class="postList">
-  {% for post in postslist %}
+<ul class="postListFull">
+  {% for post in postslist | reverse %}
     <li class={{ "spanDouble" if post.data.featuredImage else "" }}>
       {% if post.data.featuredImage %}
       <a href="{{ post.url | url }}"><img src="{{post.data.featuredImage | url}}" alt="{{post.data.description}}" /></a>
