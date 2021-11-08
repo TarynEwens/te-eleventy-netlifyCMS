@@ -11,7 +11,7 @@ permalink: /community/
           <p>
             One of my latest volunteering activities has been with with
             <a
-              className={utilStyles.linkFeature}
+              class="linkFeature"
               href="https://www.uts.edu.au/about/faculty-engineering-and-information-technology/women-engineering-and-it/primary-and-high-school-programs/stem-x-play-primary-school-program"
             >
               UTS STEM x Play primary school program
@@ -32,7 +32,7 @@ permalink: /community/
           <p>
             I also present to software engineering classes at
             <a
-              className={utilStyles.linkFeature}
+              class="linkFeature"
               href="https://generalassemb.ly/"
             >
               General Assembly
@@ -48,7 +48,7 @@ permalink: /community/
           <p>
             I volunteer with the meetup group
             <a
-              className={utilStyles.linkFeature}
+              class="linkFeature"
               href="https://www.meetup.com/en-AU/Men-Championing-Change-Meetup/"
             >
               Men Championing Change
@@ -57,24 +57,24 @@ permalink: /community/
             Twitter account.
           </p>
         </section>
-        <section className={utilStyles.imageWrapper}>
+        <section class="aboutImageWrapper">
           <img
             src="/images/taryn-speaking1.jpg"
-            className={utilStyles.imageHalf}
+            class="imageHalf"
             alt="Taryn speaking at SydCSS"
           />
           <img
             src="/images/taryn-speaking2.jpg"
-            className={utilStyles.imageHalf}
+            class="imageHalf"
             alt="Taryn speaking at SydCSS"
           />
         </section>
         <section>
           <h3 className={utilStyles.h3}>Meetups</h3>
           <ul className={utilStyles.listStandard}>
-            <li className={utilStyles.listItemStandard}>
+            <li>
               <a
-                className={utilStyles.linkFeature}
+                class="linkFeature"
                 href="https://docs.google.com/presentation/d/1mOWn44fw9hPnMRPUXxeY5vcUym1QFtjg4Gm0zg9QE-M/edit?usp=sharing"
               >
                 “Personal branding to get your dream job”
@@ -83,7 +83,7 @@ permalink: /community/
               <small className={utilStyles.lightText}>
                 at the
                 <a
-                  className={utilStyles.linkFeature}
+                  class="linkFeature"
                   href="https://musescodejs.org/hobart.html"
                 >
                   Muses Code Hobart
@@ -91,12 +91,12 @@ permalink: /community/
                 virtual meetup, December 2020
               </small>
             </li>
-            <li className={utilStyles.listItemStandard}>
+            <li>
               “Break into coding” industry panel
               <br />
               <small className={utilStyles.lightText}>
                 <a
-                  className={utilStyles.linkFeature}
+                  class="linkFeature"
                   href="https://generalassemb.ly/"
                 >
                   General Assembly
@@ -104,9 +104,9 @@ permalink: /community/
                 event, November 2020
               </small>
             </li>
-            <li className={utilStyles.listItemStandard}>
+            <li>
               <a
-                className={utilStyles.linkFeature}
+                class="linkFeature"
                 href="https://www.youtube.com/watch?v=rlysgxOGbwU&amp;feature=youtu.be"
               >
                 “How to begin making web accessibility improvements”
@@ -115,7 +115,7 @@ permalink: /community/
               <small className={utilStyles.lightText}>
                 at the
                 <a
-                  className={utilStyles.linkFeature}
+                  class="linkFeature"
                   href="https://www.meetup.com/en-AU/SydCSS/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -125,9 +125,9 @@ permalink: /community/
                 virtual meetup, April 2020
               </small>
             </li>
-            <li className={utilStyles.listItemStandard}>
+            <li>
               <a
-                className={utilStyles.linkFeature}
+                class="linkFeature"
                 href="https://docs.google.com/presentation/d/1I-kJOWeFS35rfZ7yx6FV6cVCzaor68LlSFrHBxKuuDY/edit?usp=sharing"
               >
                 “Finding your passions and utilising your skill sets”
@@ -136,7 +136,7 @@ permalink: /community/
               <small className={utilStyles.lightText}>
                 at a
                 <a
-                  className={utilStyles.linkFeature}
+                  class="linkFeature"
                   href="https://generalassemb.ly/"
                 >
                   General Assembly
@@ -144,9 +144,9 @@ permalink: /community/
                 event ‘How to land your dream gig in tech’, June 2019
               </small>
             </li>
-            <li className={utilStyles.listItemStandard}>
+            <li>
               <a
-                className={utilStyles.linkFeature}
+                class="linkFeature"
                 href="https://docs.google.com/presentation/d/19nUNOWb3MLZZXNZhlWYwP9CXvZnWKJUBjjlVzm4RBsw/edit#slide=id.g35f391192_00"
               >
                 “CSS images: not just for ‘funsies’”
@@ -155,7 +155,7 @@ permalink: /community/
               <small className={utilStyles.lightText}>
                 at the
                 <a
-                  className={utilStyles.linkFeature}
+                  class="linkFeature"
                   href="https://www.meetup.com/en-AU/SydCSS/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -170,27 +170,27 @@ permalink: /community/
         <section>
           <h3 className={utilStyles.h3}>Online</h3>
           <ul className={utilStyles.listStandard}>
-            <li className={utilStyles.listItemStandard}>
+            <li>
               <a
-                className={utilStyles.linkFeature}
+                class="linkFeature"
                 href="https://www.careerfaqs.com.au/careers/insider-stories/taryn-ewens-software-engineer"
               >
                 Career FAQ's interview
               </a>
               <small className={utilStyles.lightText}> - August 2020</small>
             </li>
-            <li className={utilStyles.listItemStandard}>
+            <li>
               <a
-                className={utilStyles.linkFeature}
+                class="linkFeature"
                 href="https://www.instagram.com/codelikeagirlau/"
               >
                 Code Like A Girl Instagram Stories Takeover
               </a>
               <small className={utilStyles.lightText}> - July 2020</small>
             </li>
-            <li className={utilStyles.listItemStandard}>
+            <li>
               <a
-                className={utilStyles.linkFeature}
+                class="linkFeature"
                 href="https://www.instagram.com/tv/CAuMW_MjNoC/"
               >
                 Instagram Live with Createable Tech

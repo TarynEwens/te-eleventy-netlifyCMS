@@ -176,6 +176,10 @@ header p {
 .mainArea {
   font-size: 1.2rem;
   margin: 6rem 0;
+  max-width: 39rem;
+}
+
+.blogIntro {
   max-width: 37rem;
 }
 
@@ -253,4 +257,16 @@ header p {
 
 .blogLink {
   text-align: center;
+}
+
+.aboutImageWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  flex-direction: row;
+}
+
+.imageHalf {
+  width: 49%;
+  display: inline-block;
 }
