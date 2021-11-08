@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Hiring for gender balance notes
-descrription: Recently I attended a webinar by [Work180](https://au.work180.co/) titled. “Hiring for a gender balance – job advert training”. Here’s a recap of the rough notes I took.
+description: Recently I attended a webinar by [Work180](https://au.work180.co/) titled. “Hiring for a gender balance – job advert training”. Here’s a recap of the rough notes I took.
 date: 2019-07-21T14:00:00.000Z
 ---
 
