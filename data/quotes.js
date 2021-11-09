@@ -1,4 +1,3 @@
-console.log("js is running");
 const quoteOfTheDay = () => {
   let quotes = [
     "Instead of a justify-content center, or flex-end... I need a justify-content: flex-slightly-past-two-thirds.",
