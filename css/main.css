@@ -63,10 +63,6 @@ a:hover,
   border-bottom: 2px solid var(--blueLight);
 }
 
-.blogList a.linkStyle {
-  margin: 0 2rem;
-}
-
 nav a:hover,
 .blogList a:hover {
   border-bottom: 2px solid var(--blueLight);
@@ -272,6 +268,7 @@ header p {
   height: min-content;
   margin: 1rem 0;
   min-width: 18rem;
+  padding: 0 1.5rem;
 }
 
 .postList li.spanDouble {
@@ -283,13 +280,6 @@ header p {
   width: 100%;
   height: 46%;
   object-fit: cover;
-}
-
-.postList p,
-.postList h4,
-.postListFull p,
-.postListFull h4 {
-  padding: 0 2rem 1rem;
 }
 
 .postList h4,
