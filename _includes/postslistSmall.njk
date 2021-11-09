@@ -10,7 +10,6 @@
       </h4>
       <a href="{{ post.url | url }}"><p>{{ post.data.description }}</p></a>
       <p><small><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></small></p>
-
     </li>
   {% endfor %}
 </ul>
