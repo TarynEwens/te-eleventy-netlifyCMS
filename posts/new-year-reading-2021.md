@@ -13,7 +13,7 @@ With the dumpster fire mess that was 2020, I ended up exceeding my goal by readi
 
 ###
 
-![Stack of books read in 2020 in front of computer](/img/books-2020.png)
+![Stack of books read in 2020 in front of computer](/images/books-2020.png)
 
 ###
 
@@ -35,7 +35,7 @@ First, to recap 2020, here are some of my favourite reads (or listens - some wer
 
 ###
 
-![Two books waiting to be read](/img/books-2021.png)
+![Two books waiting to be read](/images/books-2021.png)
 
 ### Reading plans for 2021
 

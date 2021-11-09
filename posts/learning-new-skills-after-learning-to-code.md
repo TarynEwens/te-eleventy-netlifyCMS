@@ -25,7 +25,7 @@ This year I've been trying some new hobbies. I admit I got a little burnt out la
 
 I started with crochet. For a long time I got stuck in the process of just following basic tutorials to practise stitches (tutorial purgatory sound familiar anyone?). Finally I tackled my first project. I crocheted a beanie!
 
-![A beanie that I crocheted](/img/crochetBeanie.jpg)
+![A beanie that I crocheted](/images/crochetBeanie.jpg)
 
 It was so hard. I made lots of mistakes. There were times where I wanted to give up. Past me would have given up for sure. This time however, I continued. I pulled out the stitches I made mistakes in and re-did them. Some mistakes I accepted and continued anyway. It took a long time but I got there. I completed a beanie - and I love it, mistakes and all! I'm so proud of it! I'm not the best at crochet, and my first project is far from perfect. But I'm better at crochet than when I started and that makes me so proud.
 

@@ -18,7 +18,7 @@ So in the past couple of years I've gone through a few iterations of my site:
 
 The last two were both quite recent so I thought I'd share some differences I've found in my first impressions of [GatsbyJS](https://www.gatsbyjs.org/) vs [Next.JS](https://nextjs.org/). To be clear, these are beginners impressions - how I felt about just starting out with them for the first time!
 
-![Screenshot of my sites home page](/img/portfolio_screenshot.png)
+![Screenshot of my sites home page](/images/portfolio_screenshot.png)
 
 ### What are they?
 
@@ -110,6 +110,6 @@ Both are great frameworks and I'm sure once I spend the time to learn GraphQL I'
 
 One parting note: I only spent a few hours to set up my latest Next.JS version and here's the results from a Google Lighthouse audit:
 
-![Screenshot of audit results showing all green numbers, 97 for performance, 100 for everything else](/img/lighthouse_audit.png)
+![Screenshot of audit results showing all green numbers, 97 for performance, 100 for everything else](/images/lighthouse_audit.png)
 
 Performance would be even better if I wasn't too lazy to resize my images 😉although tech Twitter tells me I can easily resolve this with the use of the [imagemin plugin](https://www.npmjs.com/package/imagemin). Another task for another day!

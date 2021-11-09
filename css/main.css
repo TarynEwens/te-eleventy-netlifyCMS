@@ -22,6 +22,10 @@ body {
   padding: 0 1rem;
 }
 
+img {
+  max-width: 100%;
+}
+
 @media only screen and (min-width: 600px) {
   :root {
     font-size: 18px;

@@ -9,7 +9,7 @@ In 2019 I did a lightning talk at the [SydCSS](https://www.meetup.com/en-AU/Syd
 
 Something that most people know about me is that before changing careers to web development in 2018, I worked as a pastry chef. I actually got my start as a cake decorator and used to spend quite a bit of time making figurines out of fondant icing for cakes.
 
-![Cupcakes with Princess Toppers made from fondant](/img/Photo-19-4-20-12-58-12-pm-768x1024.jpg)
+![Cupcakes with Princess Toppers made from fondant](/images/Photo-19-4-20-12-58-12-pm-768x1024.jpg)
 
 As I began learning web development I started seeing people creating beautiful art out of HTML and CSS only. The more I looked at these pictures drawn with CSS I began to see their parts and how similar it was to my fondant creations. Each part is a small shape, and when put together they create the whole image (or tasty decoration!). It seemed very similar to what I’d been doing in my previous career.
 
@@ -29,25 +29,25 @@ Disclaimer: None of these were built to be responsive, and really only work on d
 
 **[CSS Animations](https://codepen.io/tarynewens/pen/KbeNYX)**
 
-![Animated gelato image made with CSS](/img/gelato-298x300.gif)
+![Animated gelato image made with CSS](/images/gelato-298x300.gif)
 
 This pen did use javascript to detect the mouse movements but the animations themselves are done using CSS. I got to experiment with using keyframes to adjust transforms to create the gelato’s melting effect and the face movements.
 
 **[CSS Grid and Triangles](https://codepen.io/tarynewens/pen/WPgwZO)**
 
-![Geometric heart image made with CSS](/img/Photo-14-2-19-4-56-31-pm-297x300.jpg)
+![Geometric heart image made with CSS](/images/Photo-14-2-19-4-56-31-pm-297x300.jpg)
 
 When triangles came up I was very happy to have recently learnt about CSS triangles at work when I’d been styling our (now old) desktop navigation. I wanted to practise CSS grid as well, so I created the grid and filled each section with a triangle. Repeating the triangles all from different angles was great to help me understand how they worked.
 
 **[Clip-path](https://codepen.io/tarynewens/pen/WmwgJR)**
 
-![Geometric pig image made with CSS](/img/Photo-3-3-19-10-00-13-am-300x300.png)
+![Geometric pig image made with CSS](/images/Photo-3-3-19-10-00-13-am-300x300.png)
 
 I’d tried to use clip-paths before at work only to throw the work in the trash when I realised it didn’t work in Internet Explorer (sigh!). I was keen to try it out though for the polygon challenge, and really got a chance to experiment with different shapes.
 
 **[Box-shadow](https://codepen.io/tarynewens/pen/OqpVxe)**
 
-![Ada Lovelace cartoon image made with CSS](/img/Photo-7-3-19-6-26-24-pm-300x300.jpg)
+![Ada Lovelace cartoon image made with CSS](/images/Photo-7-3-19-6-26-24-pm-300x300.jpg)
 
 In a previous challenge I’d set out to create a single div CSS image and discovered that box-shadows could have multiple layers. I decided to practise this by using box-shadows to create the headband. Only one div was used for the whole headband, with the flower being a pseudo element with more box shadows. This image itself actually only used 6 divs in total.
 
