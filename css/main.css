@@ -306,16 +306,26 @@ header p {
   padding-top: 0.75rem;
 }
 
+.blogLink {
+  text-align: center;
+}
+
+code {
+  white-space: pre-wrap;
+}
+
+.dateTime {
+  margin-top: 3rem;
+}
+
+/* MAIN */
+
 .mainArea .blogList li {
   margin: 1rem 0;
 }
 
 .mainArea {
   margin: 6rem auto;
-}
-
-.blogLink {
-  text-align: center;
 }
 
 .aboutImageWrapper {
@@ -330,6 +340,8 @@ header p {
   display: inline-block;
 }
 
+/* QUOTE SECTION OF FOOTER  */
+
 .quoteWrapper img {
   width: 4rem;
 }
@@ -343,8 +355,4 @@ header p {
 
 #profilePic:hover {
   border: 2px solid var(--pinkDark);
-}
-
-code {
-  white-space: pre-wrap;
 }
