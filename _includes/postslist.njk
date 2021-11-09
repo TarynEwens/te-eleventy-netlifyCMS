@@ -8,6 +8,7 @@
         <a href="{{ post.url | url }}">{{ post.data.title }}</a>
       </h4>
       <a href="{{ post.url | url }}"><p>{{ post.data.description }}</p></a>
+      <a href="{{ post.url | url }}" class="linkStyle">Read more of "{{ post.data.title }}"</a>
       <p><small><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></small></p>
     </li>
   {% endfor %}

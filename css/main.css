@@ -49,7 +49,8 @@ h1 {
   border: 0;
 }
 
-a {
+a,
+.blogList a.linkStyle {
   color: var(--textStandard);
   text-decoration: none;
   border-bottom: 2px solid var(--pinkDark);
@@ -57,8 +58,13 @@ a {
   transition: all 0.5s ease;
 }
 
-a:hover {
+a:hover,
+.blogList a.linkStyle:hover {
   border-bottom: 2px solid var(--blueLight);
+}
+
+.blogList a.linkStyle {
+  margin: 0 2rem;
 }
 
 nav a:hover,
