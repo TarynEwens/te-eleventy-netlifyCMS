@@ -338,3 +338,7 @@ header p {
 #profilePic:hover {
   border: 2px solid var(--pinkDark);
 }
+
+code {
+  white-space: pre-wrap;
+}
