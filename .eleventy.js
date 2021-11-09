@@ -2,6 +2,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("favicon.ico");
 
   const { DateTime } = require("luxon");
 

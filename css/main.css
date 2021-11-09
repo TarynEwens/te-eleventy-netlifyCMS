@@ -319,3 +319,18 @@ header p {
   width: 49%;
   display: inline-block;
 }
+
+.quoteWrapper img {
+  width: 4rem;
+}
+
+#profilePic {
+  border-radius: 50%;
+  border: 2px solid var(--blueLight);
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+#profilePic:hover {
+  border: 2px solid var(--pinkDark);
+}
