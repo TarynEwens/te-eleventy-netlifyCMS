@@ -134,6 +134,6 @@ permalink: /about/
             href="https://www.instagram.com/lexiandsprite/"
           >
             Lexi and Sprite
-          </a>. 🐶
+          </a>. 🐶 Alternatively in my rare moments of peace & quiet you'll likely find me with my nose in a book. 📚
         </p>
       </section>
