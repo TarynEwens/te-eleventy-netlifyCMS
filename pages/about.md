@@ -3,7 +3,6 @@ layout: layouts/page.njk
 title: About
 permalink: /about/
 ---
-
 <section>
         <h2>About me</h2>
         <ul className={utilStyles.listStandard}>
@@ -129,13 +128,12 @@ permalink: /about/
       <section>
         <h3 className={utilStyles.h3}>When I'm not at a computer</h3>
         <p>
-          You'll usually find me going on adventures with
+          I'm usually going on adventures (as well as training, grooming, etc.) my two Samoyed dogs,
           <a
             className={utilStyles.linkFeature}
-            href="https://www.instagram.com/lexi.samoyed"
+            href="https://www.instagram.com/lexiandsprite/"
           >
-            Lexi the Samoyed
-          </a>
-          . 🐶
+            Lexi and Sprite
+          </a>. 🐶
         </p>
       </section>
