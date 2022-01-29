@@ -128,12 +128,12 @@ permalink: /about/
       <section>
         <h3 className={utilStyles.h3}>When I'm not at a computer</h3>
         <p>
-          I'm usually going on adventures (as well as training, grooming, etc.) my two Samoyed dogs,
+          I'm usually going on adventures (as well as training, grooming, etc.) with my two Samoyed dogs,
           <a
             className={utilStyles.linkFeature}
             href="https://www.instagram.com/lexiandsprite/"
           >
             Lexi and Sprite
-          </a>. 🐶 Alternatively in my rare moments of peace & quiet you'll likely find me with my nose in a book. 📚
+          </a>. 🐶 I always like to be learning and trying new things so in my rare moments of quiet you might find me reading a book, working on a side project, or trying out a new hobby!
         </p>
       </section>
