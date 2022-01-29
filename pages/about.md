@@ -128,7 +128,7 @@ permalink: /about/
       <section>
         <h3 className={utilStyles.h3}>When I'm not at a computer</h3>
         <p>
-          I'm usually going on adventures (as well as training, grooming, etc.) with my two Samoyed dogs,
+          I'm usually going on adventures with my two Samoyed dogs,
           <a
             className={utilStyles.linkFeature}
             href="https://www.instagram.com/lexiandsprite/"
