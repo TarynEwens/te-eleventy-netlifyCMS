@@ -3,11 +3,10 @@ layout: layouts/page.njk
 title: About
 permalink: /about/
 ---
-
 <section class="about">
     <h2>About me</h2>
     <p>Just a person who loves learning, creating, reading, vintage inspired style, and most importantly, my two samoyed dogs!</p>
-    <p>I'm currently working as a Software Engineer, but I previously worked as a Pastry Chef specialising in handmade confectionery!</p>
+    <p>I'm currently working as a software engineer, but I previously worked as a pastry chef specialising in handmade confectionery!</p>
     <p></p>
     <section class="aboutImageWrapper">
     <img
