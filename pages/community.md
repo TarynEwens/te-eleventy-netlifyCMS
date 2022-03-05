@@ -3,13 +3,12 @@ layout: layouts/page.njk
 title: Community
 permalink: /community/
 ---
-
  <section className="community">
   <h2>Community involvement</h2>
   <section>
     <h3>The Purpose Project</h3>
     <p>
-      At the end of 2021 I had the pleasure of being involved with
+      At the end of 2021 I was able to participate in
       <a
         class="linkFeature"
         href="https://www.thepurposeproject.com.au/"
