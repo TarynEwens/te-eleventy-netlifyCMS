@@ -4,7 +4,7 @@ title: Community
 permalink: /community/
 ---
 
- <section className="mainArea">
+ <section className="community">
         <h2>Community involvement</h2>
         <section>
           <h3>STEM x Play</h3>

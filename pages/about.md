@@ -4,15 +4,15 @@ title: About
 permalink: /about/
 ---
 
-<section>
+<section class="about">
         <h2>About me</h2>
         <ul className={utilStyles.listStandard}>
           <li>
-            <strong>2000:</strong> Taught myself to write HTML and CSS so I
-            could build geocities sites about my virtual ‘dogz’ 🐶
+            <strong>2000:</strong> Taught myself to write HTML so I
+            could build websites about my virtual pets 🐶
           </li>
           <li>
-            <strong>February 2018:</strong> Finally realised I could learn how
+            <strong>February 2018:</strong> Realised I could learn how
             to code for real, quit my candy making career and started a 12 week
             web development bootcamp at
             <a
@@ -139,3 +139,4 @@ permalink: /about/
           . 🐶
         </p>
       </section>
+</section>

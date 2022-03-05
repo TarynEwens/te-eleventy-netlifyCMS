@@ -1,6 +1,8 @@
 ---
 layout: layouts/base.njk
 ---
-<div class="mainArea">
-<p>{{ content | safe }}</p>
-</div>
+
+  <section class="mainColumn">
+    {{ content | safe }}
+  </section>
+  {% include "sidebar.njk" %}

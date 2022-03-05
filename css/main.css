@@ -1,19 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+
 /* DEFAULTS */
 :root {
-  --textStandard: #575656;
+  --textStandard: #262626;
   --pinkDark: #f582ae;
   --pinkLight: #ffe9ed;
   --blueDark: #001858;
   --blueLight: #8bd3dd;
   line-height: 1.6;
   font-size: 16px;
+  font-weight: 300;
 }
 
 body {
   background-color: #fbfbfb;
   color: var(--textStandard);
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 .bodyWrapper {
@@ -34,14 +37,15 @@ img {
 
 /* FONT / LINKS */
 
-h1,
-h2,
-h4 {
-  font-weight: 800;
-}
 h1 {
   font-size: 2rem;
   margin: 0;
+}
+
+h1,
+h2,
+h4 {
+  font-weight: 500;
 }
 
 .headerLink,
@@ -71,7 +75,7 @@ nav a:hover,
 /* NAVIGATION */
 
 nav {
-  margin-bottom: 1.5rem;
+  margin: 1.5rem 0;
 }
 
 nav ul {
@@ -89,16 +93,12 @@ nav li {
 
 nav a {
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   border-bottom: 0;
   transition: none;
 }
 
 @media only screen and (min-width: 890px) {
-  nav {
-    margin-bottom: 0;
-  }
-
   nav ul {
     justify-content: flex-end;
   }
@@ -116,21 +116,18 @@ nav a {
 
 header {
   padding-bottom: 1rem;
-  border-bottom: 1px solid #a6a3a3;
 }
 
 header p {
-  font-family: "Merriweather", serif;
   font-size: 1.2rem;
   font-style: italic;
-  font-weight: 300;
   margin-top: 0.5rem;
 }
 
 .headerWrapper {
   align-items: center;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -140,7 +137,6 @@ header p {
 }
 
 .headerTitle {
-  align-items: center;
   display: flex;
 }
 
@@ -164,7 +160,6 @@ header p {
 
 .footerImageLeft {
   width: 4rem;
-  margin-right: 1rem;
 }
 
 .footerImageRight {
@@ -223,23 +218,16 @@ header p {
     align-items: end;
     flex-direction: row;
   }
+
+  .footerImageLeft {
+    margin-right: 1rem;
+  }
 }
 
 /* BLOG */
 
-.blogIntro,
-.mainArea {
-  font-size: 1.2rem;
-  margin: 6rem 0;
-  max-width: 39rem;
-}
-
-.blogIntro {
-  max-width: 37rem;
-}
-
-.blogIntro h2 {
-  font-weight: 800;
+.blogList {
+  margin-bottom: 2rem;
 }
 
 .blogList a {
@@ -250,15 +238,7 @@ header p {
 .postList,
 .postListFull {
   list-style: none;
-
   padding-left: 0;
-}
-
-.postList {
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
-  grid-template-rows: repeat(auto-fill, 1fr);
 }
 
 .postList li,
@@ -269,10 +249,6 @@ header p {
   margin: 1rem 0;
   min-width: 13rem;
   padding: 0 1.5rem;
-}
-
-.postList li.spanDouble {
-  grid-row: span 2;
 }
 
 .postList img,
@@ -297,7 +273,7 @@ header p {
 }
 
 .blogLink {
-  text-align: center;
+  margin-top: 2rem;
 }
 
 code {
@@ -312,10 +288,6 @@ code {
 
 .mainArea .blogList li {
   margin: 1rem 0;
-}
-
-.mainArea {
-  margin: 6rem auto;
 }
 
 .aboutImageWrapper {
@@ -345,4 +317,43 @@ code {
 
 #profilePic:hover {
   border: 2px solid var(--pinkDark);
+}
+
+/* NEW */
+main {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.sidebar {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (min-width: 890px) {
+  main {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3rem;
+  }
+
+  .mainColumn {
+    max-width: 62%;
+  }
+
+  .sidebar {
+    max-width: 30%;
+    text-align: center;
+  }
+}
+
+.profileImage {
+  border-radius: 50%;
+  max-width: 15rem;
+}
+
+.sidebar h2 {
+  font-weight: 500;
+  max-width: 80%;
+  margin: 1rem auto;
 }
