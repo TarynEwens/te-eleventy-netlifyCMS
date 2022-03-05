@@ -7,13 +7,14 @@
   --pinkLight: #ffe9ed;
   --blueDark: #001858;
   --blueLight: #8bd3dd;
+  --background: #fbfbfb;
   line-height: 1.6;
   font-size: 16px;
   font-weight: 300;
 }
 
 body {
-  background-color: #fbfbfb;
+  background-color: var(--background);
   color: var(--textStandard);
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -365,4 +366,8 @@ main.Home {
   font-weight: 500;
   max-width: 80%;
   margin: 1rem auto;
+}
+
+.aboutWork {
+  margin-top: 3rem;
 }
