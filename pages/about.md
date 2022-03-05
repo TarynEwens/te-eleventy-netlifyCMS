@@ -6,7 +6,7 @@ permalink: /about/
 
 <section class="about">
     <h2>About me</h2>
-    <p>Just a person who loves my dogs, learning and creating, reading, and vintage inspired style!</p>
+    <p>Just a person who loves learning, creating, reading, vintage inspired style, and most importantly, my two samoyed dogs!</p>
     <p>I'm currently working as a Software Engineer, but I previously worked as a Pastry Chef specialising in handmade confectionery!</p>
     <p></p>
     <section class="aboutImageWrapper">

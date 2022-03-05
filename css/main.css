@@ -293,7 +293,7 @@ code {
 .aboutImageWrapper {
   display: flex;
   justify-content: space-between;
-  margin-top: 3rem;
+  margin: 3rem 0;
   flex-direction: row;
 }
 
