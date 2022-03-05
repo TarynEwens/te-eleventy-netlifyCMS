@@ -322,6 +322,10 @@ code {
 /* NEW */
 main {
   display: flex;
+  flex-direction: column;
+}
+
+main.Home {
   flex-direction: column-reverse;
 }
 
@@ -330,8 +334,13 @@ main {
   margin-bottom: 3rem;
 }
 
+.mainColumn {
+  margin-bottom: 6rem;
+}
+
 @media only screen and (min-width: 890px) {
-  main {
+  main,
+  main.Home {
     flex-direction: row;
     justify-content: space-between;
     padding-top: 3rem;
