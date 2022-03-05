@@ -30,7 +30,7 @@ permalink: /community/
       </a>
       . I had the pleasure of joining a primary school class as an
       industry professional mentor. The aim is to increase young girls
-      interest, confidence and identity with STEM and is incredibly
+      interest, confidence and identity with STEM and was incredibly
       rewarding to be part of.
     </p>
   </section>
