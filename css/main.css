@@ -49,11 +49,6 @@ h4 {
   font-weight: 500;
 }
 
-.headerLink,
-.headerLink:hover {
-  border: 0;
-}
-
 a,
 .blogList a.linkStyle {
   color: var(--textStandard);
