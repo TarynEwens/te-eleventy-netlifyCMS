@@ -119,12 +119,6 @@ header {
   padding-bottom: 1rem;
 }
 
-header p {
-  font-size: 1.2rem;
-  font-style: italic;
-  margin-top: 0.5rem;
-}
-
 .headerWrapper {
   align-items: center;
   display: flex;
@@ -139,6 +133,7 @@ header p {
 
 .headerTitle {
   display: flex;
+  position: relative;
 }
 
 @media only screen and (min-width: 890px) {
@@ -375,4 +370,39 @@ main.Home {
 .sidebarImage {
   margin-top: 2rem;
   max-width: 5rem;
+}
+
+/* EMOJIS ON HOVER */
+.sidebarImageWrapper {
+  margin: 0 auto;
+  position: relative;
+  width: min-content;
+}
+
+.sidebarIcon {
+  bottom: 0;
+  position: absolute;
+  right: 1.75rem;
+  width: 3rem;
+}
+
+.sidebarEmoji {
+  display: none;
+  font-size: 2rem;
+  position: absolute;
+  top: -2rem;
+  left: 0;
+}
+
+.profileImage:hover + .sidebarEmoji,
+.mainHeading:hover + .headingEmoji {
+  display: block;
+}
+
+.headingEmoji {
+  display: none;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0.25rem;
+  right: -2rem;
 }
