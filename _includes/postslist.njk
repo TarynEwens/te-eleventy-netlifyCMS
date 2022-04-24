@@ -1,13 +1,13 @@
-<ul class="postListFull">
+<ul class="postList">
   {% for post in postslist | reverse %}
-    <li class={{ "spanDouble" if post.data.featuredImage else "" }}>
+    <li>
       {% if post.data.featuredImage %}
-      <a href="{{ post.url | url }}"><img src="{{post.data.featuredImage | url}}" alt="{{post.data.description}}" /></a>
+      <img src="{{post.data.featuredImage | url}}" alt="{{post.data.description}}" />
       {% endif %}
       <h4>
-        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+        {{ post.data.title }}
       </h4>
-      <a href="{{ post.url | url }}"><p>{{ post.data.description }}</p></a>
+      <p>{{ post.data.description }}</p>
       <a href="{{ post.url | url }}" class="linkStyle">Read more of "{{ post.data.title }}"</a>
       <p class="dateTime"><small><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></small></p>
     </li>

@@ -40,3 +40,5 @@ quoteParagraph.innerHTML = quoteOfTheDay();
 profilePic.addEventListener("click", (event) => {
   quoteParagraph.innerHTML = quoteOfTheDay();
 });
+
+console.log("JAVASCRIPT FILE");

@@ -58,11 +58,6 @@ a,
   transition: all 0.5s ease;
 }
 
-a:hover,
-.blogList a.linkStyle:hover {
-  border-bottom: 2px solid var(--blueLight);
-}
-
 nav a:hover,
 .blogList a:hover {
   border-bottom: 2px solid var(--blueLight);
@@ -226,14 +221,12 @@ header {
   transition: none;
 }
 
-.postList,
-.postListFull {
+.postList {
   list-style: none;
   padding-left: 0;
 }
 
-.postList li,
-.postListFull li {
+.postList li {
   background-color: #fff;
   border: 1px solid #eaeaea;
   height: min-content;
@@ -242,22 +235,20 @@ header {
   padding: 0 1.5rem;
 }
 
-.postList img,
-.postListFull img {
+.postList img {
   width: 100%;
-  height: 46%;
+  max-height: 20rem;
   object-fit: cover;
+  margin-top: 1rem;
 }
 
-.postList h4,
-.postListFull h4 {
+.postList h4 {
   font-size: 1.2rem;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
-.postList small,
-.postListFull small {
+.postList small {
   border-top: 1px solid #c2c2c2;
   margin-top: 0.75rem;
   padding-top: 0.75rem;

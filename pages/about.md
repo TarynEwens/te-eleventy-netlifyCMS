@@ -3,6 +3,7 @@ layout: layouts/page.njk
 title: About
 permalink: /about/
 ---
+
 <section class="aboutMe">
   <h2>About me</h2>
   <p>Just a person who loves learning, creating, reading, vintage inspired style, and most important of all: my two samoyed dogs!</p>
@@ -70,6 +71,7 @@ permalink: /about/
   <h3 className={utilStyles.h3}>Things I’ve worked on</h3>
   <h4>Atlassian</h4>
   <ul className={utilStyles.listStandard}>
+    <li>Managed an end-to-end release of packages from platform into products</li>
     <li>
       Feature led the
       <a href="https://community.atlassian.com/t5/Confluence-articles/New-Undo-Redo-buttons-in-the-Confluence-editor/ba-p/1735895"> 
