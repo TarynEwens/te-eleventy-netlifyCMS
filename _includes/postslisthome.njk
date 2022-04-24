@@ -1,5 +1,8 @@
+{% set posts = postslist | reverse %}
+
 <ul class="postList">
-  {% for post in postslist | reverse %}
+  {{page.permalink}}
+    {% for post in posts.slice(0, 4) %}
     <li>
       {% if post.data.featuredImage %}
       <img src="{{post.data.featuredImage | url}}" alt="{{post.data.description}}" />

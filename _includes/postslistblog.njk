@@ -1,0 +1,16 @@
+<ul class="postList">
+  {{page.permalink}}
+    {% for post in postslist | reverse %}
+    <li>
+      {% if post.data.featuredImage %}
+      <img src="{{post.data.featuredImage | url}}" alt="{{post.data.description}}" />
+      {% endif %}
+      <h4>
+        {{ post.data.title }}
+      </h4>
+      <p>{{ post.data.description }}</p>
+      <a href="{{ post.url | url }}" class="linkStyle">Read more of "{{ post.data.title }}"</a>
+      <p class="dateTime"><small><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></small></p>
+    </li>
+  {% endfor %}
+</ul>
