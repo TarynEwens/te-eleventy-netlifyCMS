@@ -373,6 +373,11 @@ code {
 }
 
 .galleryImage {
-  max-width: 10rem;
+  max-width: 40%;
   margin: 0.5rem;
+}
+@media only screen and (min-width: 890px) {
+  .galleryImage {
+    max-width: 10rem;
+  }
 }
