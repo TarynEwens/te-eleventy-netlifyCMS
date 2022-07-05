@@ -1,8 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:wght@300;500&display=swap");
 /* DEFAULTS */
 :root {
-  --textStandard: #262626;
+  --textStandard: #343434;
   --pinkDark: #f582ae;
   --pinkLight: #ffe9ed;
   --blueDark: #001858;
@@ -39,8 +38,9 @@ img {
 /* FONT / LINKS */
 
 h1 {
+  font-family: "Libre Baskerville", serif;
   font-size: 2rem;
-  margin: 0;
+  margin: 1rem 0 0;
 }
 
 h1,
@@ -58,8 +58,8 @@ a,
   transition: all 0.5s ease;
 }
 
-nav a:hover,
-.blogList a:hover {
+a:hover,
+a.linkStyle:hover {
   border-bottom: 2px solid var(--blueLight);
 }
 
@@ -75,7 +75,6 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-transform: uppercase;
 }
 
 nav li {
@@ -84,7 +83,6 @@ nav li {
 
 nav a {
   font-size: 1rem;
-  font-weight: 500;
   border-bottom: 0;
   transition: none;
 }
@@ -95,7 +93,7 @@ nav a {
   }
 
   nav li {
-    margin: 0 1.5rem;
+    margin: 0 1rem;
   }
 
   nav a {
@@ -126,13 +124,13 @@ header {
   position: relative;
 }
 
+.headerTitle > a {
+  border: 0;
+}
+
 @media only screen and (min-width: 890px) {
   header {
     padding-bottom: 0.5rem;
-  }
-
-  .headerWrapper {
-    flex-direction: row;
   }
 }
 
@@ -290,60 +288,31 @@ code {
   width: 4rem;
 }
 
-#profilePic {
-  border-radius: 50%;
-  border: 2px solid var(--blueLight);
-  transition: all 0.5s ease;
-  cursor: pointer;
-}
-
-#profilePic:hover {
-  border: 2px solid var(--pinkDark);
-}
-
 /* NEW */
-main {
-  display: flex;
-  flex-direction: column;
+.contentArea {
+  max-width: 42rem;
+  margin: 0 auto;
 }
 
-main.Home {
-  flex-direction: column-reverse;
-}
-
-.sidebar {
+.intro {
   text-align: center;
   margin-bottom: 3rem;
 }
 
-.mainColumn {
-  margin-bottom: 6rem;
-}
-
 @media only screen and (min-width: 890px) {
-  main,
-  main.Home {
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 3rem;
-  }
-
-  .mainColumn {
-    max-width: 62%;
-  }
-
-  .sidebar {
-    max-width: 30%;
-    text-align: center;
+  main {
+    padding: 1rem 1rem 3rem;
   }
 }
 
 .profileImage {
   border-radius: 50%;
-  max-width: 15rem;
+  width: 20rem;
+  max-width: 100%;
+  margin-bottom: 1rem;
 }
 
-.sidebar h2 {
+.intro h2 {
   font-weight: 500;
   max-width: 80%;
   margin: 1rem auto;
@@ -391,4 +360,14 @@ main.Home {
   position: absolute;
   top: 0.25rem;
   right: -2rem;
+}
+
+.imageGallery {
+  display: flex;
+  justify-content: center;
+}
+
+.galleryImage {
+  max-width: 10rem;
+  margin: 0.5rem;
 }

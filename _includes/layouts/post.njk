@@ -1,10 +1,9 @@
 ---
 layout: layouts/base.njk
 ---
-<section class="mainColumn">
+<section class="contentArea">
   <p>{{ date | readableDate }}</p>
   <h2>{{ title }}</h2>
   <img src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
   <p>{{ content | safe }}</p>
 </section>
-{% include "sidebar.njk" %}
