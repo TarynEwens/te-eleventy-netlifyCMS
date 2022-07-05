@@ -21,7 +21,6 @@ body {
 
 .bodyWrapper {
   margin: 1rem auto 6rem;
-  max-width: 66rem;
   padding: 0 1rem;
 }
 
@@ -135,6 +134,11 @@ header {
 }
 
 /* FOOTER */
+
+footer {
+  max-width: 66rem;
+  margin: 0 auto;
+}
 
 .footerTop {
   display: flex;
@@ -365,6 +369,7 @@ code {
 .imageGallery {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .galleryImage {
