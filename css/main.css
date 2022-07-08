@@ -381,3 +381,8 @@ code {
     max-width: 10rem;
   }
 }
+
+.imageGallery a {
+  border: 0;
+  display: contents;
+}
