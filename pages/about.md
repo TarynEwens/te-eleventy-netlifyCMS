@@ -5,12 +5,13 @@ permalink: /about/
 ---
 
 <section class="aboutMe">
-  <h2>About me</h2>
-  <p>Just a person who loves learning, creating, reading, vintage inspired style, and most important of all: my two samoyed dogs!</p>
-  <p>I'm currently working as a software engineer, but I was previously a pastry chef specialising in handmade confectionery!</p>
-  <p></p>
+    <img src="/images/TarynOnline-8338(1).jpg" alt="Photo of Taryn with her two samoyed dogs" class="aboutImage"/>
+    <h2>About me</h2>
+    <p>Just a person who loves learning, creating, reading, vintage inspired style, and most important of all: my two Samoyed dogs!</p>
+    <p>I'm currently working as a software engineer, but I was previously a pastry chef specialising in handmade confectionery! 👩🏻‍🍳</p>
+    <p></p>
 </section>
-<section class="aboutImageWrapper">
+<!-- <section class="aboutImageWrapper">
   <img
     src="/images/taryn-lexi-desk1.jpg"
     alt="Taryn at her desk with her big fluffy dog begging for treats"
@@ -21,7 +22,7 @@ permalink: /about/
     alt="Taryn at her desk giving her big fluffy dog a treat"
     class="imageHalf"
   />
-</section>
+</section> -->
 <section class="aboutCareer">
   <h2>About my career</h2>
   <ul className={utilStyles.listStandard}>
@@ -31,7 +32,7 @@ permalink: /about/
     </li>
     <li>
       <strong>February 2018:</strong> Realised I could learn how
-      to code for real, quit my candy making career and started a 12 week
+      to code more than basic websites. Started a
       web development bootcamp at
       <a
         className={utilStyles.linkFeature}
@@ -39,7 +40,7 @@ permalink: /about/
       >
         General Assembly
       </a>
-      🍬
+      👩🏻‍💻
     </li>
     <li>
       <strong>June 2018:</strong> Started as a Junior Front-End Web
@@ -50,7 +51,7 @@ permalink: /about/
       >
         Finder
       </a>
-      👩🏻‍💻
+      🔍
     </li>
     <li>
       <strong>September 2019:</strong> Promoted to Software Engineer 🎉
@@ -71,16 +72,19 @@ permalink: /about/
   <h3 className={utilStyles.h3}>Things I’ve worked on</h3>
   <h4>Atlassian</h4>
   <ul className={utilStyles.listStandard}>
-    <li>Managed an end-to-end release of packages from platform into products</li>
+    <li>Mentored junior engineers in a program designed to support them in reaching the next level</li>
+    <li>Coordinated the end-to-end releases of packages from platform into products, juggling up to 6 releases at a time at various stages from development to adoption. At the same time contributed to improvements in the release process & tooling.</li>
+    <li>Contributed to a performance project which cut down time to interactive by 35%</li>
+    <li>Supported feature contributions from external teams to the editor codebase
     <li>
-      Feature led the
-      <a href="https://community.atlassian.com/t5/Confluence-articles/New-Undo-Redo-buttons-in-the-Confluence-editor/ba-p/1735895"> 
-        new undo/redo buttons in the Confluence editor
+      Feature led a team of engineers to build and release the
+      <a href="https://community.atlassian.com/t5/Confluence-articles/New-Undo-Redo-buttons-in-the-Confluence-editor/ba-p/1735895">
+        new undo/redo buttons in the Confluence cloud editor
       </a>
-      (along with predictability improvements) from make to impact!
+      (along with predictability improvements for undo/redo behaviours)!
     </li>
     <li>
-      Cypress tests for editor functionality to allow manual testing time
+      End to end tests for editor functionality to allow manual testing time
       to be spent on more complex scenarios
     </li>
     <li>

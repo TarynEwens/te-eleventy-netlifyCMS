@@ -386,3 +386,24 @@ code {
   border: 0;
   display: contents;
 }
+
+.aboutImage {
+  border-radius: 50%;
+  max-width: 15rem;
+}
+
+.aboutMe {
+  text-align: center;
+}
+
+.aboutMe p,
+.aboutMe h2 {
+  text-align: left;
+}
+
+@media only screen and (min-width: 690px) {
+  .aboutImage {
+    float: right;
+    padding: 0 0 1rem 1rem;
+  }
+}
