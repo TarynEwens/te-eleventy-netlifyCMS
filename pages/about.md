@@ -75,7 +75,7 @@ permalink: /about/
 
 <p>In my experience, fostering an environment where individuals feel empowered to share their ideas freely not only enhances creativity but also leads to innovative solutions. I firmly believe that diversity in perspectives drives better outcomes, and I am committed to advocating for inclusive practices that celebrate differences and promote equity.</p>
 
-<p>If you believe my background and expertise could benefit your team, I'm always open to new opportunities. Feel free to reach out via email of LinkedIn (both at the bottom of this page) - I'd welcome the chance to speak with you!</p>
+<p>If you believe my background and expertise could benefit your team, I'm always open to new opportunities. Feel free to reach out via <a href="mailto:hello@tarynewens.com">email</a> or <a href="https://www.linkedin.com/in/tarynewens/">LinkedIn</a> - I'd welcome the chance to speak with you!</p>
 </section>
 <section class="aboutWork">
   <h3 className={utilStyles.h3}>Things I’ve worked on</h3>
