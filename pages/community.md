@@ -3,9 +3,15 @@ layout: layouts/page.njk
 title: Community
 permalink: /community/
 ---
+
  <section className="community">
   <h2>Community involvement</h2>
   <section>
+  Note: I haven't had as much community involvement in the last few years due to a high level of demand in my current role. My focus has swapped to mentoring within my teams, rather than external to Atlassian for the time being.
+  <section>
+  <section>
+    <h3>Girls in Tech Australia</h3>
+    <p> Early 2023 I spoke at a Girls in Tech Australia event for <a href="https://www.linkedin.com/posts/tarynewens_career-tech-engineering-activity-7043335496776777728-4Ycg">"A night with female leaders in engineering"</a>. It was a great opportunity to share on a variety of topics such as what inspired our career paths, how we manage competition in a highly competitive field and how we adapt to the fast pace environment of tech engineering.</p>
     <h3>The Purpose Project</h3>
     <p>
       At the end of 2021 I was able to participate in
@@ -37,19 +43,19 @@ permalink: /community/
   <section>
     <h3 className={utilStyles.h3}>General Assembly</h3>
     <p>
-      I'm regularly involved in the General Assembly software engineering
+      I was previously regularly involved in the General Assembly software engineering
       community. I often make time for mentoring sessions with individual
       students, as well as other career changers.
     </p>
     <p>
-      I also present to software engineering classes at
+      I also used to present to software engineering classes at
       <a
         class="linkFeature"
         href="https://generalassemb.ly/"
       >
         General Assembly
       </a>
-      Sydney (and Melbourne once or twice!). I introduce them to CSS, the
+      Sydney (and Melbourne once or twice!). I introduced them to CSS, the
       amazing things that can be created with it (think fun interactions
       and art!), and resources for them to continue learning more!
     </p>
@@ -58,7 +64,7 @@ permalink: /community/
   <section>
     <h3 className={utilStyles.h3}>Men Championing Change</h3>
     <p>
-      I volunteer with the meetup group
+      From 2019 to 2023 I volunteered with the meetup group
       <a
         class="linkFeature"
         href="https://www.meetup.com/en-AU/Men-Championing-Change-Meetup/"
